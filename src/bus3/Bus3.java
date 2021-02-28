@@ -18,7 +18,7 @@ public double penumpang;
           System.out.println("Penumpang melebihi kuota");
       }
       else{
-          this.penumpang=penumpang;
+          this.penumpang=temp;
       }
   }
   public void getPenumpang(int password){
